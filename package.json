@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.17.1",
     "telegraf": "^3.17.7"
   },
   "scripts": {
