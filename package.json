@@ -1,0 +1,16 @@
+{
+  "name": "tongue-whisperer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^3.17.7"
+  },
+  "scripts": {
+    "start": "env $(cat .env | tr \"\\n\" \" \") node index.js",
+    "start-dev": "env $(cat .env | tr \"\\n\" \" \") nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
