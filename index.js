@@ -3,4 +3,4 @@ const messages = require('./lib/messages');
 
 const bot = telegramBotAPI.start({ token: process.env.BOT_TOKEN });
 
-messages.start(bot);
+messages.startObservingMessages(bot);
